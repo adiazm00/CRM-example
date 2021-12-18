@@ -3,7 +3,8 @@ Android Java-based mobile app emulating the functions of a Customer Relationshop
 
 Login window:
 
-![Screenshot_2021-12-18-13-59-28-772_com example crm_alvarez_diaz](https://user-images.githubusercontent.com/96338110/146642116-947d1792-4fba-4f5b-945a-6f2647ddd7e8.jpg)
+![Screenshot_2021-12-18-13-59-05-475_com example crm_alvarez_diaz](https://user-images.githubusercontent.com/96338110/146642182-d0a6f98b-f294-4397-81f3-56087437f731.jpg)
+
 
 Register window:
 
