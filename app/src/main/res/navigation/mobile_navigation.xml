@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_clientes">
+
+    <fragment
+        android:id="@+id/nav_clientes"
+        android:name="com.example.crm_alvarez_diaz.ui.clientes.ClientesFragment"
+        android:label="@string/menu_clientes"
+        tools:layout="@layout/fragment_clientes" />
+
+    <fragment
+        android:id="@+id/nav_proveedores"
+        android:name="com.example.crm_alvarez_diaz.ui.proveedores.ProveedoresFragment"
+        android:label="@string/menu_proveedores"
+        tools:layout="@layout/fragment_proveedores" />
+
+    <fragment
+        android:id="@+id/nav_tareas"
+        android:name="com.example.crm_alvarez_diaz.ui.tareas.TareasFragment"
+        android:label="@string/menu_tareas"
+        tools:layout="@layout/fragment_tareas" />
+    <fragment
+        android:id="@+id/nav_estadisticas"
+        android:name="com.example.crm_alvarez_diaz.ui.estadisticas.EstadisticasFragment"
+        android:label="@string/menu_estadisticas"
+        tools:layout="@layout/fragment_estadisticas" />
+</navigation>
